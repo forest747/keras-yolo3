@@ -16,7 +16,8 @@ from yolo3.utils import get_random_data
 def _main():
     # './export/_annotations.txt'
     annotation_path = '/colab/train_all.txt'
-    log_dir = '/colab/logs/20201127_all_unfreeze_batch8_epoch50/'
+    log_dir =''
+    #log_dir = '/colab/logs/20201127_all_unfreeze_batch8_epoch50/'
     # './export/_annotations.txt'
     classes_path = 'model_data/my_classes.txt'
     anchors_path = 'model_data/yolo_anchors.txt'
